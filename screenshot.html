@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML to Image</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="screenshot.css">
+
+</head>
+
+<body>
+
+    <div class="container setting">
+
+        <div class="row">
+
+            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-lg-offset-1">
+
+                <h3 id="head" style="margin-top: 50px; margin-bottom:30px; text-align:center; padding: 20px; background-color: #f5f5f5;">Click on below div to save content as an image</h3>
+
+                <!-- Third Container (Grid) -->
+                <div class="container-fluid bg-3 text-center" id="cap-data">
+                    <h3 class="margin">Where To Find Me?</h3><br>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <img src="images/pic1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+                        </div>
+                        <div class="col-sm-4">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <img src="images/pic2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+                        </div>
+                        <div class="col-sm-4">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <img src="images/pic3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <img id="can-img" src="">
+                <input id="save-image" type="button" class="btn btn-primary align-center" value="Save Image on directory">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Library for converting html to canvas/image -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="screenshot.js"></script>
+
+</body>
+
+</html>

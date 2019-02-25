@@ -1,0 +1,45 @@
+/* 
+
+*/
+
+.outer-class {
+    width: 400px;
+    height: 400px;
+}
+
+.outer-class p {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+
+.outer-class img {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+#sort-table {
+    width: 100%;
+    height: 100%;
+}
+
+.x2 {
+    transform: scale(2, 2);
+}
+
+@font-face {
+    font-family: 'customFont';
+    src: url('fonts/learning_curve_regular_ot_ps.otf');
+}
+
+.margin {
+    font-family: 'customFont';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.align-center {
+    display: block;
+    margin: 0 auto;
+}
